@@ -13,3 +13,5 @@ with manager.connect(
     hostkey_verify=False) as m:
     for capability in m.server_capabilities:
         print capability
+        
+print "Hi Abdul"
